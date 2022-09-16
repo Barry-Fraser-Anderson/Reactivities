@@ -1,9 +1,3 @@
-using MediatR;
-using Microsoft.OpenApi.Models;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
-using Application.Activities;
-using Application.Core;
 using API.Extensions;
 
 namespace API
