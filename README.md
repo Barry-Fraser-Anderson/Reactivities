@@ -1,5 +1,5 @@
 # Reactivities
-Training Exercise
+C#, .Net, and React Training Exercise
 
 From the Udemy course: Complete guide to building an app with .NET Core and React
 
