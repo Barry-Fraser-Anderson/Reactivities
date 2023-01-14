@@ -1,0 +1,11 @@
+{
+    "editor.indentSize": "tabSize",
+    "prettier.endOfLine": "auto",
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    }
+}
