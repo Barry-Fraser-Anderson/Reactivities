@@ -8,5 +8,14 @@ Outline of topics covered:
 - Clean architecture
 - .Net 7 and CLI
 - Entity Framework
+- Seeding Data
 - Code first migrations
+- Simple API
+- Postman
+- Create-react-app
+- React concepts
+- React Dev tools
+- Typescript
+- Axios
+- Semantic-ui
 - TBC...
