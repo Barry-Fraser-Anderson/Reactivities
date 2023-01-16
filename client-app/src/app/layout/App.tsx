@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
 import axios from "axios";
-import { Header } from "semantic-ui-react";
-import List from "semantic-ui-react/dist/commonjs/elements/List";
+import { Header, List } from "semantic-ui-react";
 
 function App() {
     const [activities, setActivities] = useState([]);
