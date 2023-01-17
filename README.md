@@ -22,4 +22,7 @@ Outline of topics covered:
 -   CQRS + Mediator pattern
 -   Creating handlers for CRUD operations
 -   AutoMapper
+-   Typescript interfaces
+-   Basic forms in React
+-   CRUD operations
 -   TBC...
