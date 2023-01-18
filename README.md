@@ -25,4 +25,5 @@ Outline of topics covered:
 -   Typescript interfaces
 -   Basic forms in React
 -   CRUD operations
+-   Axios interceptors
 -   TBC...
