@@ -26,4 +26,8 @@ Outline of topics covered:
 -   Basic forms in React
 -   CRUD operations
 -   Axios interceptors
+-   State management
+-   MobX
+-   MobX React Lite
+-   React Context
 -   TBC...
