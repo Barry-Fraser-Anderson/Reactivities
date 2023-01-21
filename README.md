@@ -6,6 +6,8 @@ URL: https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-cor
 
 Outline of topics covered:
 
+API
+
 -   Clean architecture
 -   .Net 7 and CLI
 -   Entity Framework
@@ -13,6 +15,9 @@ Outline of topics covered:
 -   Code first migrations
 -   Simple API
 -   Postman
+
+CLIENT
+
 -   Create-react-app
 -   React concepts
 -   React Dev tools
@@ -31,4 +36,7 @@ Outline of topics covered:
 -   MobX React Lite
 -   React Context
 -   React-Router
+
+API
+
 -   TBC...
