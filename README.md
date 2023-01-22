@@ -39,4 +39,8 @@ CLIENT
 
 API
 
+-   Validation
+-   Handling HTTP error responses
+-   Handling exceptions
+-   Custom middleware
 -   TBC...
