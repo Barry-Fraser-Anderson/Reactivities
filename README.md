@@ -16,7 +16,7 @@ API
 -   Simple API
 -   Postman
 
-CLIENT
+CLIENT/APP
 
 -   Create-react-app
 -   React concepts
@@ -43,4 +43,10 @@ API
 -   Handling HTTP error responses
 -   Handling exceptions
 -   Custom middleware
+
+CLIENT/APP
+
+-   Forms with Formik
+-   Validation with Formik/Yup
+-   Reusuable form inputs
 -   TBC...
