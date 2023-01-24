@@ -49,4 +49,11 @@ CLIENT/APP
 -   Forms with Formik
 -   Validation with Formik/Yup
 -   Reusuable form inputs
+
+API
+
+-   ASPNET Core Identity
+-   JWT Token Authentication
+-   Login/Register
+-   Authenticated requests
 -   TBC...
