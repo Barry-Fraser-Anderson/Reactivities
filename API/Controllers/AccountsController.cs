@@ -34,7 +34,7 @@ namespace API.Controllers
 
             if (result)
             {
-                CreateUserObject(user);
+                return CreateUserObject(user);
             }
 
             return Unauthorized();
