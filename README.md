@@ -56,4 +56,10 @@ API
 -   JWT Token Authentication
 -   Login/Register
 -   Authenticated requests
+
+CLIENT/APP
+
+-   MobX reactions
+-   Modals
+
 -   TBC...
