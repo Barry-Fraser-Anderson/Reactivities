@@ -61,5 +61,8 @@ CLIENT/APP
 
 -   MobX reactions
 -   Modals
+    = EF relationshps
+-   Loading related entities
+-   Automapper queryable extensions
 
 -   TBC...
