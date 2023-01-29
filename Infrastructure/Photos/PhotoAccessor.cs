@@ -32,7 +32,7 @@ namespace Infrastructure.Photos
             };
 
             var uploadResult = await _cloudinary.UploadAsync(uploadParams);
-            if (uploadResult != null)
+            if (uploadResult == null)
             {
                 throw new Exception(uploadResult.Error.Message);
             }
