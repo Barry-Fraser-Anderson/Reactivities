@@ -65,4 +65,7 @@ CLIENT/APP
 -   Loading related entities
 -   Automapper queryable extensions
 -   Photo upload service with the Cloudinary API
+
+CLIENT
+
 -   TBC...
