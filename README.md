@@ -61,8 +61,8 @@ CLIENT/APP
 
 -   MobX reactions
 -   Modals
-    = EF relationshps
+-   EF relationshps
 -   Loading related entities
 -   Automapper queryable extensions
-
+-   Photo upload service with the Cloudinary API
 -   TBC...
