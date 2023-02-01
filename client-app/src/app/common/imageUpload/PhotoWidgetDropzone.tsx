@@ -1,7 +1,6 @@
 import React, { useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Header, Icon } from 'semantic-ui-react';
-import { getParseTreeNode } from 'typescript';
 
 interface Props {
     setFiles: (files: any) => void;
