@@ -20,7 +20,7 @@ export default observer(function ProfilePhotos({ profile }: Props) {
         uploadPhoto(file).then(() => setAddPhotoMode(false));
     }
 
-    function handleSetMainPhoteo(photo: Photo, e: SyntheticEvent<HTMLButtonElement>) {
+    function handleSetMainPhoto(photo: Photo, e: SyntheticEvent<HTMLButtonElement>) {
         setTarget(e.currentTarget.name);
         setMainPhoto(photo);
     }
@@ -56,7 +56,7 @@ export default observer(function ProfilePhotos({ profile }: Props) {
                                                 name={photo.id}
                                                 disabled={photo.isMain}
                                                 loading={target === photo.id && loading}
-                                                onClick={(e) => handleSetMainPhoteo(photo, e)}
+                                                onClick={(e) => handleSetMainPhoto(photo, e)}
                                             />
                                             <Button basic color='red' icon='trash' />
                                         </Button.Group>
