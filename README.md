@@ -68,4 +68,8 @@ CLIENT/APP
 
 CLIENT
 
+-   Handling photos
+-   React dropzone
+-   React cropper
+
 -   TBC...
