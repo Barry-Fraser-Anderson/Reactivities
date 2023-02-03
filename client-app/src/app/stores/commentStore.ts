@@ -25,7 +25,7 @@ export default class CommentStore {
 
             this.hubConnection
                 .start()
-                .catch((error) => console.log('Error establishing the connection: ', error));
+                .catch(error => console.log('Error establishing the connection: ', error));
 
             this.hubConnection.on('LoadComments', (comments: ChatComment[]) => {
                 runInAction(() => (this.comments = comments));
@@ -37,13 +37,20 @@ export default class CommentStore {
     };
 
     stopHubConnection = () => {
-        this.hubConnection
-            ?.stop()
-            .catch((error) => console.log('Error stopping connection:', error));
+        this.hubConnection?.stop().catch(error => console.log('Error stopping connection:', error));
     };
 
     clearComments = () => {
         this.comments = [];
         this.stopHubConnection();
+    };
+
+    addComments = async (values: any) => {
+        values.activityId = store.activityStore.selectedActivity?.id;
+        try {
+            await this.hubConnection?.invoke('SendComment', values);
+        } catch (error) {
+            console.log(error);
+        }
     };
 }
