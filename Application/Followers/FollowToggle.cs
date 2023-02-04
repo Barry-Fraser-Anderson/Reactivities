@@ -5,7 +5,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
-namespace Application.Comments
+namespace Application.Followers
 {
     public class FollowToggle
     {
