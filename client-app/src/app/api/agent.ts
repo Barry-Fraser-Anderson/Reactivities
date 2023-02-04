@@ -7,7 +7,7 @@ import { router } from '../router/Routes';
 import { store } from '../stores/store';
 
 const sleep = (delay: number) => {
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
         setTimeout(resolve, delay);
     });
 };
@@ -16,14 +16,14 @@ axios.defaults.baseURL = 'http://localhost:5000/api';
 
 const responseBody = <T>(response: AxiosResponse<T>) => response.data;
 
-axios.interceptors.request.use((config) => {
+axios.interceptors.request.use(config => {
     const token = store.commonStore.token;
     if (token && config.headers) config.headers.Authorization = `Bearer ${token}`;
     return config;
 });
 
 axios.interceptors.response.use(
-    async (response) => {
+    async response => {
         await sleep(1000);
         return response;
     },
@@ -98,6 +98,7 @@ const Profiles = {
     },
     setMainPhoto: (id: string) => requests.post(`/photos/${id}/setMain`, {}),
     deletePhoto: (id: string) => requests.del(`/photos/${id}`),
+    updateFollowing: (username: string) => requests.post(`/follow/${username}`, {}),
 };
 
 const agent = {
