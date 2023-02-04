@@ -40,7 +40,7 @@ Outline of topics covered:
 
 -   Forms with Formik
 -   Validation with Formik/Yup
--   Reusuable form inputs
+-   Reusable form inputs
 
 -   ASPNET Core Identity
 -   JWT Token Authentication
