@@ -18,20 +18,18 @@ export default observer(function ActivityDetailedSidebar({ activity: { attendees
                 attached='top'
                 secondary
                 inverted
-                color='teal'
-            >
+                color='teal'>
                 {attendees.length} {attendees.length === 1 ? 'Person' : 'People'} going
             </Segment>
             <Segment attached>
                 <List relaxed divided>
-                    {attendees.map((attendee) => (
+                    {attendees.map(attendee => (
                         <Item style={{ position: 'relative' }} key={attendee.username}>
                             {attendee.username === host?.username && (
                                 <Label
                                     style={{ position: 'absolute' }}
                                     color='orange'
-                                    ribbon='right'
-                                >
+                                    ribbon='right'>
                                     Host
                                 </Label>
                             )}
@@ -42,7 +40,9 @@ export default observer(function ActivityDetailedSidebar({ activity: { attendees
                                         {attendee.displayName}
                                     </Link>
                                 </Item.Header>
-                                <Item.Extra style={{ color: 'orange' }}>Following</Item.Extra>
+                                {attendee.following && (
+                                    <Item.Extra style={{ color: 'orange' }}>Following</Item.Extra>
+                                )}
                             </Item.Content>
                         </Item>
                     ))}
