@@ -43,7 +43,7 @@ export default class ActivityStore {
         switch (predicate) {
             case 'all':
             case 'isGoing':
-            case 'isHost':
+            case 'isHosting':
                 resetPredicate();
                 this.predicate.set(predicate, true);
                 break;
