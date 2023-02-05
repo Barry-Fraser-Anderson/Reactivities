@@ -59,4 +59,9 @@ Outline of topics covered:
 -   React cropper
 -   SignalR
 
--   TBC...
+-   Paging
+-   Filtering
+-   Sorting
+-   IQueryable
+
+-   TBC
