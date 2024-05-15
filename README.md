@@ -1,15 +1,17 @@
-C#, .Net, and React Training Exercise
+# Reactivities
+
+A C#, .Net, and React training exercise
 
 From the Udemy course: Complete Guide to Building an app with .NET Core and React
 
 URL: https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react
 
-# Synopis
+## Synopsis
 An example social network application that allows users to sign up to events (similar to MeetUp or Facebook),
 and a Web API 
 
 
-# Topics covered:
+## Topics covered:
 
 -   Clean architecture
 -   DotNet 7 and CLI
@@ -62,7 +64,7 @@ and a Web API
 -   Sorting
 -   IQueryable
 
-# Screenshots
+## Screenshots
 <div>
 <img src="https://user-images.githubusercontent.com/112425916/224183378-4f80557e-5cb6-46f2-9792-a0be515db1ba.png" width="200">
 <img src="https://user-images.githubusercontent.com/112425916/224183416-8143636d-5fcd-46a6-8a1e-e2f00b011c63.png" width="200">
