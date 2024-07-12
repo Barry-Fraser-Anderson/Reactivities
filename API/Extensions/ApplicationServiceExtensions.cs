@@ -32,7 +32,7 @@ namespace API.Extensions
                         .WithOrigins("http://localhost:3000");
                 });
             });
-            services.AddMediatR(typeof(List.Handler));
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
             services.AddFluentValidationAutoValidation();
             services.AddValidatorsFromAssemblyContaining<Create>();
