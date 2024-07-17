@@ -42,8 +42,8 @@ namespace Persistence
                     new Activity
                     {
                         Title = "Past Activity 1",
-                        Date = DateTime.UtcNow.AddMonths(-2),
-                        Description = "Activity 2 months ago",
+                        Date = DateTime.UtcNow.AddMonths(-1),
+                        Description = "Activity 1 month ago",
                         Category = "drinks",
                         City = "London",
                         Venue = "Pub",
@@ -59,8 +59,8 @@ namespace Persistence
                     new Activity
                     {
                         Title = "Past Activity 2",
-                        Date = DateTime.UtcNow.AddMonths(-1),
-                        Description = "Activity 1 month ago",
+                        Date = DateTime.UtcNow.AddMonths(-2),
+                        Description = "Activity 2 months ago",
                         Category = "culture",
                         City = "Paris",
                         Venue = "The Louvre",
