@@ -1,13 +1,13 @@
 # Reactivities
 
-A C#, .Net, and React training exercise
+A C#, .NET Core, and ReactJS training exercise
 
 From the Udemy course: Complete Guide to Building an app with .NET Core and React
 
 URL: https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react
 
-## Synopsis
-An example social network application that allows users to sign up to events (similar to MeetUp or Facebook),
+## Description
+An Social network application that allows users to sign up to events (similar to MeetUp or Facebook)
 and a Web API 
 
 
